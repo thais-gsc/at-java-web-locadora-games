@@ -7,8 +7,14 @@
 <meta charset="ISO-8859-1">
 <title>Locadora de Videogames</title>
 </head>
+<header>
+	<jsp:include page="include/header.jsp"/>
+</header>
    <body>
       <h2>Jogos encontrados:</h2>
       <h4>${game.titulo}</h4>
    </body>
+   <footer>
+	<jsp:include page="include/footer.jsp"/>
+</footer>
 </html>

@@ -10,7 +10,8 @@ import org.springframework.web.servlet.view.JstlView;
 @Configuration
 @EnableWebMvc
 @ComponentScan(basePackages = { "br.edu.infnet.springmvc" })
-public class LocadoraConfig {
+public class LocadoraConfig  {
+	
 
     @Bean
     public InternalResourceViewResolver resolver() {
