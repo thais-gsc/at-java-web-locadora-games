@@ -1,1 +1,5 @@
 br\edu\infnet\springmvc\config\SpringMvcDispatcherServletInitializer.class
+br\edu\infnet\springmvc\config\LocadoraConfig.class
+br\edu\infnet\springmvc\controller\LocadoraController.class
+br\edu\infnet\springmvc\model\Game.class
+br\edu\infnet\springmvc\model\Usuario.class
