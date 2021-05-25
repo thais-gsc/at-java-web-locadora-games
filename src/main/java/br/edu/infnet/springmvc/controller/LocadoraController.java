@@ -16,6 +16,11 @@ public class LocadoraController {
         return new Game();
     }
 
+	@GetMapping("/login")
+    public String realizarLogin() {
+        return "login";
+    }
+
     @GetMapping("/busca")
     public String realizarBusca() {
         return "busca";
