@@ -11,19 +11,19 @@ import br.edu.infnet.springmvc.model.Game;
 
 @Controller
 public class LocadoraController {
-    @RequestMapping(value="/busca", method = RequestMethod.GET)
-    public ModelAndView user() {
-        Game game = new Game();
+	@RequestMapping(value = "/busca", method = RequestMethod.GET)
+	public ModelAndView user() {
+		Game game = new Game();
 
-        ModelAndView modelAndView = new ModelAndView("busca", "command", game);
+		ModelAndView modelAndView = new ModelAndView("busca", "command", game);
 
-        return modelAndView;
-    }
+		return modelAndView;
+	}
 
-    @RequestMapping(value="/resultado", method = RequestMethod.POST)
-    public String resultado(@ModelAttribute("games") Game game, ModelMap model) {
-        model.addAttribute("titulo", game.getTitulo());
+	@RequestMapping(value = "/resultado", method = RequestMethod.POST)
+	public String resultado(@ModelAttribute("games") Game game, ModelMap model) {
+		model.addAttribute("titulo", game.getTitulo());
 
-        return "resultado";
-    }
+		return "resultado";
+	}
 }
