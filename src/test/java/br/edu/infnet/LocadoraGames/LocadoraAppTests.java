@@ -1,10 +1,10 @@
-package br.edu.infnet.springresttemplate;
+package br.edu.infnet.LocadoraGames;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringresttemplateApplicationTests {
+class LocadoraAppTests {
 
 	@Test
 	void contextLoads() {
