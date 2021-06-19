@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora de Videogames</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body class="vsc-initialized">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Locadora de Videogames</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="busca.html">Busca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="carrinho.html">Carrinho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        <div class="card bg-dark text-white">
+            <img src="https://pixabay.com/get/g8a1eebd7aa1820d302b16d7e31bec44f95786e810a098dd6934f42c5033ea4542b246cc6d78e512f2824ae6bfbe07dc6_1920.jpg"
+                class="card-img" class="img-fluid" alt="...">
+            <div class="card-img-overlay">
+                <h5 class="card-title">Jogos de computador e browser</h5>
+                <p class="card-text">Encontre os melhores jogos, dos lançamentos aos clássicos</p>
+                <p class="card-text">Alugue hoje mesmo!</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer bg-dark text-center">
+        <div class="container">
+            <span class="text-muted">Assessment da disciplina Desenvolvimento com Java EE - Infnet 2021</span>
+        </div>
+    </footer>
+</body>
+
+</html>
