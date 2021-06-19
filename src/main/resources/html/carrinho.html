@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br" xmlns:th="http://www.thymeleaf.org"
-xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@ xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
     <title>Locadora de Videogames</title>
     <link rel="stylesheet" href="bootstrap.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -36,7 +38,43 @@ xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
     </nav>
 
     <main class="container">
-
+        <h2>Meu carrinho</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título do jogo</h5>
+                    <p class="card-text">Sinopse Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis dolorem
+                        minus labore molestiae sunt dolores sed adipisci eius laudantium inventore neque, cumque id
+                        impedit magni tempora voluptatem voluptas recusandae tenetur.</p>
+                    <a href="#" class="btn btn-primary">Remover</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título do jogo</h5>
+                    <p class="card-text">Sinopse Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis dolorem
+                        minus labore molestiae sunt dolores sed adipisci eius laudantium inventore neque, cumque id
+                        impedit magni tempora voluptatem voluptas recusandae tenetur.</p>
+                    <a href="#" class="btn btn-primary">Remover</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título do jogo</h5>
+                    <p class="card-text">Sinopse Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis dolorem
+                        minus labore molestiae sunt dolores sed adipisci eius laudantium inventore neque, cumque id
+                        impedit magni tempora voluptatem voluptas recusandae tenetur.</p>
+                    <a href="#" class="btn btn-primary">Remover</a>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-lg">Fechar pedido</button>
+            </div>
+        </div>
+        
     </main>
 
     <footer class="footer bg-dark text-center">
@@ -45,4 +83,5 @@ xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
         </div>
     </footer>
 </body>
+
 </html>
